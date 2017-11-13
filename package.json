@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack-dev": "./node_modules/.bin/webpack-dev-server -d --config webpack.config.js --inline --hot --colors"
+    "webpack-dev": "./node_modules/.bin/webpack-dev-server -d --config webpack.config.js --inline --hot --colors",
+    "webpack-prod": "./node_modules/.bin/webpack -p --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
