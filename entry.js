@@ -1,9 +1,9 @@
 import { AppRegistry } from "react-native";
-import App from "./AwesomeProject/App";
-AppRegistry.registerComponent("AwesomeProject", () => App);
+import App from "./mproject/App";
+AppRegistry.registerComponent("Casino", () => App);
 //This is what you pasted
 if (window.document) {
-    AppRegistry.runApplication("AwesomeProject", {
+    AppRegistry.runApplication("Casino", {
         initialProps: {},
         rootTag: document.getElementById("react-root")
     });
